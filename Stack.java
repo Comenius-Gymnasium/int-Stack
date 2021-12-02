@@ -5,7 +5,7 @@ public class Stack{
     }
     
     public boolean isEmpty(){
-        
+        return true;
     }
     
     public void push(int i){
@@ -17,6 +17,6 @@ public class Stack{
     }
     
     public int top(){
-        
+        return 0;
     }
 }
