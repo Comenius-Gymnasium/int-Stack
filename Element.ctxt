@@ -1,3 +1,13 @@
 #BlueJ class context
 comment0.target=Element
-numComments=1
+comment1.params=i
+comment1.target=Element(int)
+comment2.params=i
+comment2.target=void\ setWert(int)
+comment3.params=e
+comment3.target=void\ setNachfolger(Element)
+comment4.params=
+comment4.target=int\ getWert()
+comment5.params=
+comment5.target=Element\ getNachfolger()
+numComments=6

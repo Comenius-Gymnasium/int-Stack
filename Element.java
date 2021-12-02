@@ -14,11 +14,11 @@ public class Element{
         nachfolger = e;
     }
 
-    public int getWert{
+    public int getWert(){
         return wert;
     }
 
-    public Element getNachfolger{
+    public Element getNachfolger(){
         return nachfolger;
     }
 }

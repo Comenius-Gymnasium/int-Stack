@@ -17,6 +17,8 @@ public class Stack{
     public void push(Element e){
         e.setNachfolger(oberstesElement);
         oberstesElement = e;
+        hoehe++;
+        //hoehe = hoehe + 1;
     }
 
     public void push(int i){
@@ -29,9 +31,14 @@ public class Stack{
     
     public void pop(){
         oberstesElement = oberstesElement.getNachfolger();
+        hoehe--;
+    }
+    
+    public Element topElement(){
+        return oberstesElement;
     }
     
     public int top(){
-        return oberstesElement;
+        return oberstesElement.wert;
     }
 }
